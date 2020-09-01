@@ -1,0 +1,37 @@
+
+.shopping-table {
+    width: 100%;
+    /*margin: auto; */
+}
+
+.shopping-table th {
+    margin-top: 200px;
+}
+
+.shopping-table caption {
+    background: steelblue;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
+}
+
+.shoppingTableContainer {
+    border: 1px solid black;
+    width: 700px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.shoppingTableContainer form {
+    background: gainsboro;
+    border-radius: 0 0 10px 10px;
+    padding: 8px;
+}
+
+.shopping-table * {
+    text-align: start;
+    padding: 3px;
+}

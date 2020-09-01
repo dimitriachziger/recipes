@@ -1,0 +1,36 @@
+<form method="POST" action="/search?style={{ request.get.style}}">
+<label>
+    Rezept suchen :
+    <input type="text" name="keyword" maxlength=15 placeholder="Suchwort eingeben">
+</label>
+	<input type="submit" name="action" value="Suchen!">
+	
+<div>
+    <p>In folgenden Daten suchen:</p>
+<label>
+    <input type="checkbox"
+           name="recipe"
+           checked>
+
+Rezeptname
+</label>
+<label>
+    <input type="checkbox"
+           name="ingredient">
+
+Zutaten
+</label>
+<label>
+    <input type="checkbox"
+           name="categories">
+
+Kategorie
+</label>
+<label>
+    <input type="checkbox"
+           name="tags">
+
+Tags
+</label>
+</div>
+</form>

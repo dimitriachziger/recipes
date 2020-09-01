@@ -1,0 +1,106 @@
+{
+    "template": "full-html"
+}
+---
+<script src="/assets/script/nutrients.js" defer></script>
+
+<form>
+   <input type="button" value="Zur&uuml;ck zur &Uuml;bersicht" onClick="history.go(-1);return true;">
+</form>
+
+<!-- Titel, teaser und Bild -->
+
+<div id="detail_main">
+
+  <div id="detailLeft">
+    <h2>{{ page.recipe.title }}</h2>
+    <h5>{{ page.recipe.teaser }}</h5>
+    <div id="detailImg">
+      <figure>
+        <figcaption>{{ "page.title" }}</figcaption>
+        <img src="{{ page.recipe.src }}" width="400" alt="Bild" />
+      </figure>
+    </div>
+  </div>
+
+<!-- Informationen ueber das Rezept -->
+
+  <div id="detailInfo">
+    <table id="info_tb">
+    <tbody>
+      <tr>
+      <td> Kategorien </td>
+      {{#each page.recipe.categories}}<td class="categories categories_dtl">{{ this}}</td> {{/each}}
+    </tr>
+    <tr>
+      <td> Tags </td>
+      {{#each page.recipe.tags}}<td class="tags tags_dtl">{{ this}}</td> {{/each}}
+    </tr>
+    <tr>
+      <td> Zubereitungsdauer </td><td>{{ page.recipe.duration}} min</td><td></td><td></td>
+    </tr>
+    <tr>
+      <td> Portionen </td><td>{{ page.recipe.serving_size}}</td><td></td><td></td>
+    </tr>
+    </tbody>
+    </table>
+
+    <p>Nährwertinformationen <span id="nutrients_icon">&#127860; </span></p> 
+           
+
+    <div id="nutrientsContainer">
+      {{#each page.recipe.nutrients}}
+        <p class="nutrients">{{ this.name }} {{ this.value}}% </p>
+       <div class="progressBarContainer">
+         <div class="progressBar" data-value="{{ this.value }}" style="width: 100px">
+         </div>
+       </div>
+      {{/each}}
+    </div>
+
+
+  <!-- Tabelle der Zutaten -->
+
+    <table id="ingredient_tb">
+      <caption>Zutaten</caption>
+      <tbody>
+        {{#each page.recipe.ingredients}}
+        <tr>
+          <td>{{ this.value }}</td><td>{{ this.unit}}</td><td>{{ this.name }}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+
+
+<!-- Zur Einkaufsliste hinzufuegen -->
+
+    <form method="POST" action="/add-ingredients?name={{ page.recipe.ressource }}">
+      <label>
+        Anzahl Portionen
+      <input type="number" name="servingNumber" value="{{ page.recipe.serving_size}}" min="1">
+      </label>
+      <input type="hidden" name="title" value="{{ page.recipe.title }}">
+      <input type="submit" value="Zur Einkaufsliste">
+    </form>
+
+
+   </div>
+
+</div>
+
+<!-- Zubereitung -->
+
+<div class="preperation">
+	<h3> Zubereitung </h3>	
+	<p> {{ page.recipe.preperation }} </p>
+</div>
+
+
+{{include "slider"}}
+
+
+
+
+
+

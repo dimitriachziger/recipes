@@ -1,0 +1,15 @@
+  
+<script src="/assets/script/slider.js" defer></script>
+  
+   <div id="slider">
+    {{#each page.allRecipes}}
+        {{#if sliderImg }}
+            <figure class="slide">
+                <figcaption>{{ title }}</figcaption>
+                <a href="recipe?name={{ this.ressource }}">
+                    <img src="{{ src }}" width="300" height="200" alt="Bild" />
+                </a>
+            </figure>
+        {{/if}}
+    {{/each}}
+</div>

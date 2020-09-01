@@ -1,0 +1,11 @@
+{
+  "title": "Simple Low Carb Cooking",
+  "styles": ["assets/main.css", "assets/slider.css", "assets/detailPage.css", "assets/mobile.css", "assets/recipesOverview.css", "assets/shoppingcart.css"],
+  "links": [
+    { "name": "Startseite", "ressource": "/" },
+    { "name": "Rezepte", "ressource": "../recipes?style=grid" }, 
+    { "name": "Einkaufsliste", "ressource": "../shoppinglist" },
+    { "name": "Impressum", "ressource": "imprint" }
+   
+  ]
+}

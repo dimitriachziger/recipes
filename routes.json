@@ -1,0 +1,95 @@
+[
+    {
+        "url": "/assets/*",
+        "static": "/assets/*"
+    },
+    {
+        "url": "/recipes/assets/*",
+        "static": "/assets/*"
+    },
+    {
+        "url": "/",
+        "page": "/index"
+    },
+    {
+        "url": "/imprint",
+        "page": "/imprint"
+    },
+    {
+        "url": "/recipes",
+        "method": ["get"],
+		"controller": {
+			"file": "recipes_control",
+			"function": "loadRecipes"
+        },
+        "params": {
+            "get": ["style"]
+        }
+    },
+    {
+        "url": "/recipe",
+        "method": ["get"],
+        "controller": {
+            "file": "recipes_control",
+            "function": "loadDetail"
+        },
+        "params": {
+            "get": ["name"]
+        }
+    },
+    {
+        "url": "/add-ingredients",
+        "method": ["post"],
+        "controller": {
+            "file": "cart_control",
+            "function": "add_ingredientlist"
+        },
+        "params": {
+            "post": ["servingNumber", "title"],
+            "get": ["name"]
+        }
+    },
+    {
+        "url": "/delete-recipe",
+        "method": ["post"],
+        "controller": {
+            "file": "cart_control",
+            "function": "deleteRecipe"
+        },
+        "params": {
+            "post": ["title"]
+        }
+    },
+    {
+        "url": "/shoppinglist",
+        "controller": {
+            "file": "cart_control",
+            "function": "loadCart"
+        }
+    },
+    {
+        "url": "/cart-content",
+        "controller": {
+            "file": "cart_control",
+            "function": "load-content"
+            }
+    },
+    {
+        "url": "/search",
+        "method": ["post"],
+        "controller": {
+            "file": "recipes_control",
+            "function": "loadSearch"
+        },
+        "params": {
+            "post": ["keyword","recipe", "ingredient", "categories","tags"]
+        }
+    },
+    {
+        "url": "/*",
+        "controller": {
+            "file": "recipes_control",
+            "function": "notFound"
+        }
+    }
+]

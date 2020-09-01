@@ -1,0 +1,170 @@
+{
+	"id": "_5biiiym372r",
+	"createdAt": "18.6.2019, 16:41:25",
+	"lastAccess": {
+		"timestamp": "19.6.2019, 20:12:53",
+		"url": ""
+	},
+	"data": {
+		"session-id": "_5biiiym372r",
+		"items": [
+			{
+				"title": "Gemüsepfanne",
+				"servings": 1,
+				"ingredients": [
+					{
+						"name": "Olivenöl",
+						"value": 3.5,
+						"unit": "EL"
+					},
+					{
+						"name": "Brokkoli",
+						"value": 250,
+						"unit": "g"
+					},
+					{
+						"name": "Karotten",
+						"value": 250,
+						"unit": "g"
+					},
+					{
+						"name": "Zwiebeln",
+						"value": 1,
+						"unit": "Stück"
+					}
+				]
+			},
+			{
+				"title": "Bacon-Chilli Salat",
+				"servings": 1,
+				"ingredients": [
+					{
+						"name": "Olivenöl",
+						"value": 2,
+						"unit": "EL"
+					},
+					{
+						"name": "Bacon",
+						"value": 100,
+						"unit": "g"
+					},
+					{
+						"name": "Petersillie",
+						"value": 0.5,
+						"unit": "Bunt"
+					},
+					{
+						"name": "Zwiebel",
+						"value": 0.5,
+						"unit": "Stück"
+					}
+				]
+			},
+			{
+				"title": "Grüner Spargel mit Garnelen",
+				"servings": 2,
+				"ingredients": [
+					{
+						"name": "Olivenöl",
+						"value": 4,
+						"unit": "EL"
+					},
+					{
+						"name": "Spargel",
+						"value": 500,
+						"unit": "g"
+					},
+					{
+						"name": "Garnelen",
+						"value": 400,
+						"unit": "g"
+					},
+					{
+						"name": "Zwiebel",
+						"value": 1,
+						"unit": "Stück"
+					}
+				]
+			},
+			{
+				"title": "Gyrosteller",
+				"servings": 3,
+				"ingredients": [
+					{
+						"name": "Olivenöl",
+						"value": 0.5,
+						"unit": "EL"
+					},
+					{
+						"name": "Gyros",
+						"value": 200,
+						"unit": "g"
+					},
+					{
+						"name": "Petersillie",
+						"value": 0.25,
+						"unit": "Bunt"
+					},
+					{
+						"name": "Zwiebel",
+						"value": 0.25,
+						"unit": "Stück"
+					}
+				]
+			},
+			{
+				"title": "Bunter Salatteller",
+				"servings": 1,
+				"ingredients": [
+					{
+						"name": "Tomaten",
+						"value": 1,
+						"unit": "Stück"
+					},
+					{
+						"name": "Avocado",
+						"value": 0.25,
+						"unit": "Stück"
+					},
+					{
+						"name": "Erbsen",
+						"value": 12.5,
+						"unit": "g"
+					},
+					{
+						"name": "Kartoffeln",
+						"value": 25,
+						"unit": "g"
+					}
+				]
+			},
+			{
+				"title": "Blaubeer-Pancakes",
+				"servings": 2,
+				"ingredients": [
+					{
+						"name": "Blaubeeren",
+						"value": 75,
+						"unit": "g"
+					},
+					{
+						"name": "Mehl",
+						"value": 75,
+						"unit": "g"
+					},
+					{
+						"name": "Backpulver",
+						"value": 0.5,
+						"unit": "TL"
+					},
+					{
+						"name": "Zucker",
+						"value": 1.5,
+						"unit": "EL"
+					}
+				]
+			}
+		],
+		"debugLength": 6
+	}
+}

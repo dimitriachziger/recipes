@@ -1,0 +1,73 @@
+
+/* Rezeptuebersicht */
+.gallary {
+    display: flex;
+}
+
+/* Rezeptuebersicht in Kacheldarstellung */
+#gridgallary {
+    /*display: flex;*/
+    flex-wrap: wrap;
+    /*justify-content: flex-start;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+#gridgallary a{
+    margin: auto;
+}
+
+/* Bilder der Uebersichtsseite  */
+.gallary img {
+    padding-top: 5px;
+    max-width: 90%;
+    height: auto;
+}
+
+
+/* optischer Effekt fuer Mausbewegung ueber ein Rezept */
+.gallary figure:hover {
+    background: steelblue;
+}
+
+/* Verlinkung der Detailseite */
+.gallary a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Link um die Darstellung der Uebersichtsseite zu aendern */
+.viewTrigger {
+    text-decoration: none;
+}
+
+/* Uebersicht der Rezepte als Liste */
+#gallarylist {
+    flex-direction: column;
+}
+
+
+/* Element(Rezept) der Ueberischt*/
+.product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Information ueber das Rezept bei der Listenansicht */
+.product_info {
+    text-align: start;
+    margin-left: 10%;
+}
+
+
+.searchContainer {
+    background: gainsboro;
+    width: 500px;
+    margin: auto;
+    margin-top: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}

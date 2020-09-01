@@ -1,0 +1,91 @@
+
+/* Elternelement des Bildes auf der Detailseite */
+#detailContainer figure {
+    max-width: inherit;
+}
+
+#detailLeft {
+    /*align-self: center; */
+    max-width: inherit;
+}
+
+/* Titel, teaser und Bild auf der Detailseite*/
+#detail_main {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    /*max-width: inherit;*/
+}
+
+
+/* Bild des Rezeptes auf der Detailseite */
+#detailImg img{	
+	border: 1px solid silver;
+    padding: 5px;
+}
+
+/* Elternelement des Bildes auf der Rezeptseite */
+#detailImg {
+    margin: auto;
+    max-width: inherit;
+}
+
+/* Tabelle mit Informationen ueber das Rezept auf der Detailseite */
+#info_tb {
+    flex-grow: 1;
+    text-align: left;
+}
+
+/* Tabelle der Zutaten */
+#ingredient_tb {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* Spalte fuer Anzahl */
+#ingredient_tb  td:first-of-type {
+    text-align: right;
+}
+
+/* Tabellenuebrschrift Zutaten */
+#ingredient_tb caption {
+    margin-bottom: 10px;
+}
+
+/* Name der Zutat*/
+#ingredient_tb  td:last-of-type {
+    padding-left: 50px;
+}
+
+/* Elternelement der Informationstabelle */
+#detailInfo {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+  /*  justify-content: space-around; */
+    align-items: center;
+}
+
+/* Zubereitung des Rezepts */
+.preperation {
+    max-width: 80%;
+    margin: auto;
+    text-align: start;
+}
+
+.progressBarContainer {
+    border: 1px solid black;
+}
+
+.progressBar {
+    height: 20px;
+}
+
+#nutrientsContainer {
+    visibility: collapse;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,72 @@
+
+#slider *{
+    margin-bottom: 1px;
+
+}
+
+#slider{
+    width: 900px;
+    /*max-width: inherit;*/
+    max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: auto;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+}
+
+#slider figure{
+    margin: 0;
+    background: steelblue;
+}
+
+.slide{
+    visibility: collapse;
+    color: white;
+    /*
+    flex-shrink: 1;
+    max-width: 100%;*/
+}    
+
+
+/*das erste Bild erhält die Animation nach links schieben*/
+.position0{
+	order: 0;
+	visibility: visible;
+	animation-duration: 2.5s;
+	animation-name: slidein;
+	animation-delay: 2.5s; 
+}
+
+.position1{
+	order: 1;
+	visibility: visible;
+	margin-left: 0px;
+}
+
+
+.position2{
+	order: 2;
+    visibility: visible;
+}
+
+/*figure an dritter Postition wird durch max. Bretite abgeschnitten */
+.position3{
+	order: 3;
+    visibility: visible;
+    border: 1px red;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 0px;
+      margin-right: 0px;
+    width: 100%; 
+    }
+  
+    to {
+      margin-left: -300px;
+     width: 100%; 
+    }
+  }

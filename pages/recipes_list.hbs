@@ -1,0 +1,38 @@
+{
+    "title": "Rezept",
+    "template": "full-html"
+}
+---
+<h1>Übersicht über alle Rezepte</h1>
+<a href="recipes?style=grid" class="viewTrigger">Zur Kachelansicht wechseln</a>
+
+<div class="searchContainer">
+{{include "search"}}
+</div>
+
+<div class="gallary" id="gallarylist">
+    {{#each page.recipes}}
+        <a class="product" href="recipe?name={{ this.ressource }}">
+            <figure>
+            <img
+                src="{{ src }}"
+                width="400"
+                alt="An awesome picture">
+                </figure>
+            <div class="product_info">
+                <h3>{{ this.title }}</h3>
+
+                <h5>{{ this.teaser }}</h5>
+                {{#each categories }}
+                    <p class="categories">{{ this }} </p>
+                {{/each}}
+                <br>
+                {{#each this.tags }}
+                     <p class="tags">{{ this }} </p>
+                {{/each}}
+                
+            </div>
+        </a>
+        
+    {{/each}}
+</div>

@@ -1,0 +1,78 @@
+{
+    "title": "Einkaufsliste",
+    "template": "full-html"
+}
+---
+<h1>Einkaufsliste</h1>
+
+<!-- Tabellarische Darstellung je Rezept -->
+
+{{#if page.items}}
+{{#each page.items}}
+<div class="shoppingTableContainer">
+<table class="shopping-table">
+    {{#if (single this.servings)}}
+    <caption>{{ this.title }} ({{this.servings}} Portion)</caption>
+    {{else}}
+    <caption>{{ this.title }} ({{this.servings}} Portionen)</caption>
+    {{/if}}
+    <thead>
+        <tr>
+        <th>Zutat</th>
+        <th>Menge</th>
+        <th>Einheit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each ingredients}}
+    <tr>
+        <td> {{ name }}  </td> 
+        <td> {{ mult value ../servings }} </td>
+        <td> {{ unit }} </td>
+    </tr>
+    {{/each}}
+
+    </tbody>
+</table>
+    <form method="POST" action="/delete-recipe">
+                <input type="submit" value="Löschen">
+                <input type="hidden" name="title" value="{{this.title}}">
+
+    </form>
+    </div>
+{{/each}}
+<br>
+
+
+<!-- Tabellarische fuer Zusammenfassung -->
+
+<div class="shoppingTableContainer">
+<table class="shopping-table">
+    <caption>
+        Zusammengefasste Ansicht
+    </caption>
+    <thead>
+        <tr>
+            <th>Zutat</th>
+            <th>Menge</th>
+            <th>Einheit</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each page.pooledIngredients}}
+    <tr>
+        <td> {{ name }}  </td> 
+        <td> {{ value }} </td>
+        <td> {{ unit }} </td>
+    </tr>
+    {{/each}}
+
+</tbody>
+</table>
+</div>
+
+{{ else }}
+
+<h3> In ihrem Warenkorb befinden sich derzeit keine Artikel </h3>
+
+{{/if}}

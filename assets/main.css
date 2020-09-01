@@ -1,0 +1,103 @@
+/* default Darstellung*/
+
+/* Viewport definieren */
+html {
+    /* positionierter Container fuer Footer */
+    position:relative; 
+    min-height: 100%;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+  }
+
+body {
+    min-width: 320px;
+     /* Hoehe des Footers */
+    padding-bottom: 60px;  
+    background-color: ivory
+    /*max-width: 90%;*/
+}
+
+header {
+    height: 40px;
+    text-shadow:5px 5px 10px rgb(119, 113, 106);
+    text-align: center;
+}
+
+/* Elternelement vom Inhalt der Seite*/
+article {
+    max-width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* Balken am untren Rand*/
+footer {
+    /* ausgerichtet an html Container */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    height: 50px;
+    background: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer *{
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation*/
+nav {
+    background: steelblue;;
+    box-shadow: 0 0 5px 0 black;
+}
+
+/* Navigationseintrag */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Navigationselemente */
+nav li {
+    flex: 1;
+    text-align: center;
+}
+
+/* Navigationslinks */
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Kategoreien und Tags allgemein */
+.categories, .tags {
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+    padding: 3px;  
+}
+
+.categories {
+    background: lightcoral;
+}
+
+.tags {
+    background: cadetblue;
+}
+

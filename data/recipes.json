@@ -1,0 +1,244 @@
+[
+    {
+        "title": "Gemüsepfanne",
+        "template": "full-html",
+        "ressource": "vegetables",
+        "src": "/assets/img/vegetables.jpg",
+        "teaser": "Diese Nährstoffe sind genau das richtige für ihre Verdauung",
+        "duration": 10,
+        "serving_size": 2,
+        "categories": [ "Mittag", "Snack", "Abendessen"],
+        "tags": [ "vitaminreich", "vegan", "vegetarisch"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 20}, 
+            {"name": "Kohlenhydrate", "value": 10}, 
+            {"name": "Fette", "value": 15}
+        ],
+        "ingredients": [
+        { "name": "Olivenöl", "value": 7, "unit": "EL" },
+        { "name": "Brokkoli", "value": 500, "unit": "g" },
+        { "name": "Karotten", "value": 500, "unit": "g" },
+        { "name": "Zwiebeln", "value": 2, "unit": "Stück" }
+        ],
+        "preperation": "Die Zwiebeln schälen und in Scheiben schneiden. Den Brokkoli putzen und klein schneiden. Die Zwiebelscheiben mit Olivenöl und den zerdrückten Knoblauchzehen bei geringer Temperatur in eine Pfanne geben. Dann den Brokkoli hinzufügen und bei geschlossenem Deckel braten. Mit Salz und Pfeffer abschmecken. Immer wenn der Brokkoli anfängt anzusetzen, mit ein wenig Wasser ablöschen. Der Brokkoli braucht ca. 10 Minuten - so hat er noch etwas Biss. Wer ihn lieber weich mag, laesst ihn einfach noch etwas in der Pfanne.",
+        "sliderImg": true
+    },
+    {
+        "title": "Bacon-Chilli Salat",
+        "template": "full-html",
+        "ressource": "chilli_salad",
+        "src": "/assets/img/chilli.jpg",
+        "teaser": "Mega einfach und mega lecker",
+        "duration": 10,
+        "serving_size": 2,
+        "categories": [ "Salat", "Beilage", "Mittag"],
+        "tags": [ "spicy", "ganz einfach", "to Go"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 40}, 
+            {"name": "Kohlenhydrate", "value": 15}, 
+            {"name": "Fette", "value": 25}
+        ],
+        "ingredients": [
+        { "name": "Olivenöl", "value": 4, "unit": "EL" },
+        { "name": "Bacon", "value": 200, "unit": "g" },
+        { "name": "Petersillie", "value": 1, "unit": "Bunt" },
+        { "name": "Zwiebel", "value": 1, "unit": "Stück" }
+        ],
+        "preperation": "Alle Zutaten mundgerecht in eine große Schüssel schneiden. Anschließend mit Salz und Pfeffer würzen. Bon Appetit!",
+        "sliderImg": true
+    
+    },
+    {
+        "title": "Grüner Spargel mit Garnelen",
+        "template": "full-html",
+        "ressource": "gambas_asparagus",
+        "src": "/assets/img/asparagus.jpg",
+        "teaser": "Der beste Sattmacher",
+        "duration": 15,
+        "serving_size": 1,
+        "categories": [ "Mittag", "Fisch", "Abendessen"],
+        "tags": [ "schnell", "braten", "eiweissreich"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 45}, 
+            {"name": "Kohlenhydrate", "value": 5}, 
+            {"name": "Fette", "value": 30}
+        ],
+        "ingredients": [
+        { "name": "Olivenöl", "value": 4, "unit": "EL" },
+        { "name": "Spargel", "value": 500, "unit": "g" },
+        { "name": "Garnelen", "value": 400, "unit": "g" },
+        { "name": "Zwiebel", "value": 1, "unit": "Stück" }
+        ],
+        "preperation": "Garnelen unter kaltem Wasser abspülen und abtropfen lassen. Spargel schälen, unteres Ende abschneiden. Spargelstangen längs halbieren und in 4 cm lange Stücke schneiden. Öl in einer Pfanne erhitzen. Spargel, Kartoffeln, Frühlingszwiebeln und Garnelen darin bei mittlerer Hitze 5–8 Minuten unter Rühren anbraten. Mit Weißwein und Gemüsebrühe ablöschen und 10–15 Minuten köcheln lassen. Inzwischen Petersilie waschen, trockenschütteln und hacken. Zum Schluss mit in die Pfanne geben, untermischen und alles mit Salz und Pfeffer würzen.",
+        "sliderImg": true
+    },
+    {
+        "title": "Gyrosteller",
+        "template": "full-html",
+        "ressource": "gyros",
+        "src": "/assets/img/gyros.jpg",
+        "teaser": "Deftig und Herzhaft",
+        "duration": 30,
+        "serving_size": 4,
+        "categories": [ "Fleisch", "Mittag", "Abendessen"],
+        "tags": ["eiweissreich", "deftig", "herzhaft"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 40}, 
+            {"name": "Kohlenhydrate", "value": 25}, 
+            {"name": "Fette", "value": 15}
+        ],
+        "ingredients": [
+        { "name": "Olivenöl", "value": 2, "unit": "EL" },
+        { "name": "Gyros", "value": 800, "unit": "g" },
+        { "name": "Petersillie", "value": 1, "unit": "Bunt" },
+        { "name": "Zwiebel", "value": 1, "unit": "Stück" }
+        ],
+        "preperation": "Kartoffel gründlich waschen und zugedeckt ca. 25 Minuten kochen. Öl in einer beschichteten Pfanne erhitzen. Fleisch darin unter Wenden ca. 2 Minuten kräftig braten. Zwiebel und Oliven kurz mitbraten. Alles mit Gyros-Gewürzsalz und Pfeffer abschmecken.",
+        "sliderImg": true
+    },
+    {
+        "title": "Bunter Salatteller",
+        "template": "full-html",
+        "ressource": "salad_plate",
+        "src": "/assets/img/salad_plate.jpg",
+        "teaser": "Der Klassiker, wenn es mal schnell gehen muss.",
+        "duration": 15,
+        "serving_size": 4,
+        "categories": [ "Salat", "Mittag", "Vorspeise"],
+        "tags": [ "vegan", "vegetarisch", "to Go"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 40}, 
+            {"name": "Kohlenhydrate", "value": 15}, 
+            {"name": "Fette", "value": 25}
+        ],
+        "ingredients": [
+        { "name": "Tomaten", "value": 4, "unit": "Stück"},
+        { "name": "Avocado", "value": 1, "unit": "Stück" },
+        { "name": "Erbsen", "value": 50, "unit": "g" },
+        { "name": "Kartoffeln", "value": 100, "unit": "g" }
+        ],
+        "preperation": "Die Süßkartoffeln in kleine Würfel schneiden und 10min im Salzwasser kochen. Währenddessem alle anderen Zutaten mundgerecht schneiden und auf einem großen Teller auslegen. Bon Appetit!",
+        "sliderImg": true
+    },
+    {
+        "title": "Gemischter Blattsalat",
+        "template": "full-html",
+        "ressource": "mixed_salad",
+        "src": "/assets/img/mixed_salad.jpg",
+        "teaser": "Schnelles Rezept für die schlanke Linie",
+        "duration": 10,
+        "serving_size": 2,
+        "categories": [ "Salat", "Mittag", "Vorspeise"],
+        "tags": ["to Go","schnell", "vegetarisch"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 40}, 
+            {"name": "Kohlenhydrate", "value": 15}, 
+            {"name": "Fette", "value": 15}
+        ],
+        "ingredients": [
+        { "name": "Olivenöl", "value": 4, "unit": "EL" },
+        { "name": "Walnüsse", "value": 50, "unit": "g" },
+        { "name": "Salat", "value": 4, "unit": "Port." },
+        { "name": "Zwiebel", "value": 1, "unit": "Stück" }
+        ],
+        "preperation": "Nüsse hacken. Essig mit Salz, Pfeffer und Zucker würzen. Öl darunter schlagen. Nüsse zufügen. Zwiebeln schälen und in Ringe schneiden. Salate putzen, waschen und abtropfen lassen. Mit Zwiebelringen und Vinaigrette anrichten",
+        "sliderImg": true
+    },
+    {
+        "title": "Blaubeer-Pancakes",
+        "template": "full-html",
+        "ressource": "pancakes",
+        "src": "/assets/img/pancakes.jpg",
+        "teaser": "Der Inbegriff eines Frühstücks",
+        "duration": 25,
+        "serving_size": 2,
+        "categories": [ "Frühstück", "Dessert", "Vorspeise"],
+        "tags": ["süß", "herzhaft", "Pancakes"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 20}, 
+            {"name": "Kohlenhydrate", "value": 15}, 
+            {"name": "Fette", "value": 15}
+        ],
+        "ingredients": [
+        { "name": "Blaubeeren", "value": 150, "unit": "g" },
+        { "name": "Mehl", "value": 150, "unit": "g" },
+        { "name": "Backpulver", "value": 1, "unit": "TL" },
+        { "name": "Zucker", "value": 3, "unit": "EL" }
+        ],
+        "preperation": "Die Eier trennen. Mehl, Natron, Backpulver und Buttermilch zu den Eigelben geben und verrühren. Die Blaubeeren waschen, trocken tupfen und bereit stellen. Das Eiweiß mit der Prise Salz schaumig rühren, den Zucker dazu geben und steif schlagen. Das Eiweiß vorsichtig mit einem Löffel unter den Teig heben. Eine vorgeheizte, beschichtete Pfanne mit etwas Butter bepinseln, den Teig hineingeben und mit einem Löffel glatt streichen. Bei mittlerer Hitze die Pancakes backen bis die Unterseite eine goldene Farbe bekommt. Die obere Seite sollte dann noch flüssig sein und Blasen bilden. Dann könnt ihr die Blaubeeren darüber verstreuen, leicht eindrücken und die Pancakes wenden. Wenn sie von beiden Seiten goldbraun sind, sind sie fertig. Bevor ihr den nächsten Pancake macht, wischt das alte Fett mit einem Küchentuch aus der Pfanne und pinselt sie neu ein.",
+        "sliderImg": true
+    },
+    {
+        "title": "Blaubeer Muffins",
+        "template": "full-html",
+        "ressource": "muffins",
+        "src": "/assets/img/muffins.jpg",
+        "teaser": "Der ideale Start für den Tag",
+        "duration": 40,
+        "serving_size": 6,
+        "categories": [ "Gebäck", "Dessert", "Frühstück"],
+        "tags": [ "süß", "ganz einfach", "Muffins"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 15}, 
+            {"name": "Kohlenhydrate", "value": 15}, 
+            {"name": "Fette", "value": 15}
+        ],
+        "ingredients": [
+        { "name": "Blaubeeren", "value": 250, "unit": "g" },
+        { "name": "Zucker", "value": 100, "unit": "g" },
+        { "name": "Milch", "value": 125, "unit": "ml" },
+        { "name": "Mehl", "value": 350, "unit": "g" },
+        { "name": "Backpulver", "value": 2, "unit": "TL" }
+        ],
+        "preperation": "Den Backofen auf 200°C vorheizen. Mehl, Backpulver und das Salz in eine zweite Schüssel geben und gut vermischen. Trockene Mehlmischung zu den feuchten Zutaten geben, nur so lange verrühren, bis alle Bestandteile gerade feucht sind. Zum Schluss die Orangenschale und die Beeren unterheben.",
+        "sliderImg": true
+    },
+    {
+        "title": "Low Carb Pizza",
+        "template": "full-html",
+        "ressource": "pizza",
+        "src": "/assets/img/pizza.jpg",
+        "teaser": "Pizza mit gutem Gewissen genießen",
+        "duration": 30,
+        "serving_size": 2,
+        "categories": [ "Pizza", "Mittag", "Gemüse"],
+        "tags": [ "herzhaft", "ganz einfach", "vegetarisch"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 10}, 
+            {"name": "Kohlenhydrate", "value": 8}, 
+            {"name": "Fette", "value": 10}
+        ],
+        "ingredients": [
+        { "name": "Olivenöl", "value": 2, "unit": "EL" },
+        { "name": "Mozzarella", "value": 250, "unit": "g" },
+        { "name": "Tomaten", "value": 3, "unit": "Stück" },
+        { "name": "Zwiebel", "value": 1, "unit": "Stück" }
+        ],
+        "preperation": "Die Eier mit dem Frischkäse in einer Schüssel verrühren. Anschließend alle Gewürze sowie den geriebenen Mozzarella hinzugeben und ebenfalls verrühren. Nun die gemahlenen Mandeln und die Flohsamenschalen unterrühren bis ein klebriger Teig entstanden ist. Den Teig auf einem Backpapier verstreichen und auf einem Backblech in den Ofen schieben. Bei  200° C etwa 10-15min backen, bis der Teig bräunlich wird. Nun den Teig mit Tomatensauce bestreichen und nach belieben belegen. Zum Beispiel mit Mozzarella und Pizzakäse. Weitere 10min backen, bis der Käse verlaufen ist und beginnt sich zu bräunen.",
+        "sliderImg": true
+    },
+    {
+        "title": "Salamiwraps",
+        "template": "full-html",
+        "ressource": "wraps", 
+        "src": "/assets/img/wraps.jpg",
+        "teaser": "Wenn der Hunger zu groß und die Zeit zu knapp ist",
+        "duration": 15,
+        "serving_size": 4,
+        "categories": [ "Snack", "Hauptspeise", "Fingerfood"],
+        "tags": ["einfach", "to Go", "deftig"],
+        "nutrients": [
+            {"name": "Eiweiss", "value": 20}, 
+            {"name": "Kohlenhydrate", "value": 35}, 
+            {"name": "Fette", "value": 25}
+        ],
+        "ingredients": [
+        { "name": "Salat", "value": 8, "unit": "Blätter" },
+        { "name": "Salami", "value": 100, "unit": "g" },
+        { "name": "Käse", "value": 4, "unit": "TL" },
+        { "name": "Tortilla", "value": 4, "unit": "Stück" }
+        ],
+        "preperation": "Tortillafladen nach Packungsanleitung erwärmen, mit Frischkäse bestreichen, salzen, pfeffern und mit Salat belegen. Dabei einen 1,5 cm breiten Rand frei lassen. Salamischeiben darauf verteilen und mit Paprika-, Gurken- und Selleriestreifen belegen. Gegenüberliegende Seiten leicht einschlagen und Wraps aufrollen. Schräg halbieren und in Backpapier wickeln.",
+        "sliderImg": true
+    }
+]

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ global.title }}: {{ page.title }}</title>
+    {{#each global.styles }}
+        <link rel="stylesheet" type="text/css" href="{{ this }}">
+    {{/each}}
+</head>
+<body>
+    <header><h3>Simple Low Carb Cooking</h3></header>
+    <nav>{{include "navigation" }}</nav>
+    <article>{{ content }}</article>
+    {{include "footer" }}
+
+</body>
+</html>

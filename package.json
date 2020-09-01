@@ -1,0 +1,15 @@
+{
+  "name": "web-uebung-01",
+  "version": "1.0.0",
+  "description": "Web-Anwendungen - Übung 03",
+  "main": "server.js",
+  "scripts": {
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fhw-web": "0.12.1"
+  }
+}

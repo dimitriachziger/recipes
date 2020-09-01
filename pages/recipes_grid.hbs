@@ -1,0 +1,27 @@
+{
+    "title": "Rezept",
+    "template": "full-html"
+}
+---
+<h1>Übersicht über alle Rezepte</h1>
+<a href="recipes?style=list" class="viewTrigger">Zur Listenansicht wechseln</a>
+
+<div class="searchContainer">
+{{include "search"}}
+</div>
+
+<div class="gallary" id="gridgallary">
+{{#each page.recipes}}
+<a href="/recipe?name={{ this.ressource }}">
+  <figure>
+  <img
+      src="{{ src }}"
+      width="400" height="300"
+      alt="An awesome picture">
+  <figcaption>{{ title }}</figcaption>
+
+  </figure>
+</a>
+{{/each}}
+
+</div>
